@@ -19,3 +19,18 @@ body {
   background-color: $base-background-color;
   color: $base-font-color;
 }
+
+.accordion {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+
+}
+
+.accordion ul{
+  list-style-type: none;
+}
+
+.accordion li {
+  margin: 0 auto;
+}
