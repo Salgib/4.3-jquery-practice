@@ -21,16 +21,43 @@ body {
 }
 
 .accordion {
-  width: 400px;
-  height: 400px;
+  width: 255px;
+  height: 300px;
   margin: 0 auto;
+  padding-top: 5px;
+  background-color: RGBA(91, 93, 98, 1);
+  border-radius: 5px;
 
 }
 
 .accordion ul{
   list-style-type: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 .accordion li {
   margin: 0 auto;
+}
+
+a:visited {
+  color:white;
+}
+
+dd {
+  margin-left: 0px;
+}
+
+dt {
+  color: white;
+  background-color: RGBA(91, 93, 98, 1);
+  padding: 5px;
+}
+
+li {
+  color: RGBA(119, 121, 150, 1);
+  background-color: RGBA(229, 229, 229, 1);
+  padding: 5px;
+  border-bottom: 1px solid RGBA(91, 93, 98, 1);
+  margin-top: 0;
 }
